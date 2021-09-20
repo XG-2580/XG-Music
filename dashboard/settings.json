@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://discord.gg/rngwYu3wYU",
+      "domain": "localhost:8080"
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/localhost:8080/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/localhost:8080/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/localhost:8080/chain.pem"
+            },
+            "enabled": true,
+            "port": 443
+        },
+        "callback": "localhost:8080/callback",
+        "clientID": "846690442610999307",
+        "secret": "Noi4FGtAlsx4COMLf1tndbnobIgw350h"
+    }
+  }
