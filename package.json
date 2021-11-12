@@ -19,6 +19,9 @@
   "devDependencies": {
     "node": "^16.13.0"
   },
+  "engine": {
+    "node": "^16.13.0"
+  },
   "name": "discord-js-lavalink-music-bot-erela-js-lava-music",
   "version": "8.0.0",
   "description": "An advanced Discord.js Music Bot, which connects via Lavalink and erela.js! Including Slash-Commands and a BUTTON-BASED-REQUEST-SYSTEM",
