@@ -1,18 +1,19 @@
+//The Module
 module.exports = async (client, thread) => {
-    if(thread.joinable){
-        try{
+    try{
+        if(thread.joinable && !thread.joined){
             await thread.join();
-        }catch (e){
-            console.log(e)
         }
+    }catch (e){
+        console.log(String(e).grey)
     }
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by Limsathya#2846 | https://discord.gg/uYRDDx7yFn
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Limsathyacord | https://limsathya.netlify.app/
  * @INFO
- * Please mention Him / Milrato Development, when using this Code!
+ * Please mention him / Limsathyacord, when using this Code!
  * @INFO
  */

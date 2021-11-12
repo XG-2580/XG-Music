@@ -1,12 +1,40 @@
 {
-  "token": "ODY5ODcyNjc2MzE4MTEzODEz.YQEiDw.CyuLJrdIlS_IXFkP0-lRT-GXigc",
-  "prefix": "!d",
-  "ksoftapi": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ",
-  "youtubeCookie": "VISITOR_INFO1_LIVE=yLp_SgIXzo8; _ga=GA1.2.1963724541.1627191639; HSID=AKffyYRLsYJZVQI7G; SSID=Ag7z1zuTZjEv7fkt2; APISID=Vc1xEjAsX-sTKfUy/ApHB6JlR1NziN28Do",
-  "spotify_api": {
-        "enabled": true, "_COMMENT_": "Set it to false, if you want to scrape, when on true you can get spotify playlists with 100+ Tracks",
-        "clientSecret": "ba5ef70431604b1dac3e5cd74159980c",
-        "clientId": "71dcc2233c01408da06d1b9ec62d4255"
-  },
-  "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
+   "token": "ODYxMjQ5NDUyNzg5NTk2MjAw.YOHDDg.nY4FK0UX6fuoz5ouj17gh5j6TKE",
+
+   "prefix": "v!",
+   "ownerIDS": [
+      "594195050242768899"
+   ],
+   "status": {
+      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds",
+      "type": "PLAYING",
+      "url": "https://twitch.tv/Limsathya"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "lavalinknl.ml",
+            "port": 2333,
+            "password": "Raccoon"
+         }
+      ]
+   },
+
+   "spotify": {
+      "clientID": "43ccca3b95964825815d56e6bfdda1f0",
+      "clientSecret": "105a5111331b420b9297994f52ab75c5"
+   },
+
+   
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 60000
+      }
+   }
 }
